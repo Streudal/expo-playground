@@ -3,8 +3,7 @@ import * as React from 'react';
 import { StyleSheet } from 'react-native';
 import { View } from '../components/Themed';
 
-const token = process.env.MAPBOX_TOKEN ?? null;
-MapboxGL.setAccessToken(token);
+MapboxGL.setAccessToken('pk.eyJ1Ijoic3RyZXV0YSIsImEiOiJja2c4OWo3emcwYmFxMndzNXFpZXU4Y3A1In0.YWRAPmIkJj6ry8S3gmna6w');
 
 export default function TabTwoScreen() {
   return (
